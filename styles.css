@@ -2,52 +2,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
     text-align: center;
+    padding: 50px 0;
 }
 
 header {
-    background: #333;
-    color: white;
-    padding: 10px;
+    background: url('assets/industrial-bg.jpg') no-repeat center center/cover;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.logo {
+    width: 150px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
+h1 {
+    font-size: 36px;
 }
 
 section {
-    padding: 50px 20px;
-    border-bottom: 1px solid #ddd;
+    padding: 50px 0;
 }
 
-form input, form textarea {
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
-}
-
-button {
-    background: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+.clients img {
+    width: 150px;
+    margin: 10px;
 }
 
 footer {
-    background: #222;
-    color: white;
-    padding: 10px;
+    text-align: center;
+    padding: 20px;
+    background: #333;
 }
